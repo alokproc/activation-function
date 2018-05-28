@@ -3,13 +3,15 @@
 
 In a neural network, activation function of a node defines the output of that node given input or set of input. It also makes sense of something complicated and non-linear complex mapping between the input and the output.
 
+Nonlinear – When the activation function is non-linear, then a two-layer neural network can be proven to be a universal function approximator.
+
 
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
 ```
 
-If function is linear and passed thro
+If a function is linear and passed through linear activation function, it will remain linear function.
 
 
 ```python
